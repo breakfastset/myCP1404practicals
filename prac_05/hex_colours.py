@@ -10,6 +10,3 @@ user_input = "HotPink"
 colour = COLOUR_TO_CODE[user_input]
 
 print("Color code for {} is {}. ".format(user_input, colour))
-
-for colour, code in COLOUR_TO_CODE.items():
-    print("Colour {} has code {}".format(colour, code))
