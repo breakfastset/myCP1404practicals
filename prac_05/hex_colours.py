@@ -1,7 +1,12 @@
 
-colour_to_code = {"azure2": "#e0eeee", "beige": "beige", "firebrick1": "#ff3030"}
+COLOUR_TO_CODE = {
+    "DeepSkyBlue4" : "#00688b",
+    "gold3" : "#cdad00",
+    "HotPink" : "#ff69b4"
+}
 
-for key, value in colour_to_code.items():
-    print(key, " - ", value)
+user_input = "HotPink"
 
-print(colour_to_code)
+colour = COLOUR_TO_CODE[user_input]
+
+print("Color code for {} is {}. ".format(user_input, colour))
